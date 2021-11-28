@@ -110,10 +110,10 @@ params:
         keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
-        - identifier: categories
-          name: categories
-          url: /categories/
-          weight: 10
+        # - identifier: categories
+        #   name: categories
+        #   url: /categories/
+        #   weight: 10
         - identifier: tags
           name: tags
           url: /tags/
@@ -121,7 +121,7 @@ menu:
         - identifier: posts
           name: posts
           url: /posts/
-          weight: 30
+          weight: 5
         - identifier: about
           name: about
           url: /about/
